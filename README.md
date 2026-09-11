@@ -9,7 +9,7 @@ A full-stack data pipeline that scrapes, cleans, and analyzes real-world custome
 Star ratings alone don't capture the emotional nuance, sarcasm, or depth of reasoning in written reviews, and comparing products with unequal review volumes (331 vs. 330 vs. 462 reviews) introduces sampling bias. This project builds a rigorous, reproducible methodology to solve both problems.
 
 ⚙️ Pipeline
-Web Scraping — Collected 1,123 customer reviews from Best Buy using Selenium + undetected-chromedriver, with fallback URL-discovery logic to handle dynamic JS rendering, pagination, and redirect chains.
+Web Scraping — Collected 1,123 customer reviews from Best Buy using Selenium + undetected-chromedriver, with fallback URL-discovery logic to handle dynamic rendering, pagination, and redirect chains.
 Data Cleaning — Regex-based preprocessing (HTML/URL stripping, normalization, noise filtering) to prepare review text for NLP.
 Sentiment Analysis — Applied cardiffnlp/twitter-roberta-base-sentiment-latest (RoBERTa) via Hugging Face Transformers to classify each review as Positive/Neutral/Negative with confidence scores.
 Composite Scoring — Combined sentiment score (55%) with normalized star rating (45%) into a single 0–100 satisfaction score using Min-Max scaling.
@@ -28,8 +28,3 @@ The iPhone 17 Pro Max ranked highest across every metric, with statistically sig
 
 Python · Selenium · undetected-chromedriver · Hugging Face Transformers · RoBERTa · Pandas · NumPy · SciPy · scikit-learn · Power BI
 
-📁 Repo Structure
-scraper.py — Best Buy review scraper
-sentiment_pipeline.py — Preprocessing, sentiment analysis, composite scoring, bootstrap resampling
-outputs/ — Generated CSVs (device summaries, rating distributions, bootstrap results, score bands)
-dashboards/ — Power BI visualizations
