@@ -15,6 +15,7 @@ Sentiment Analysis — Applied cardiffnlp/twitter-roberta-base-sentiment-latest 
 Composite Scoring — Combined sentiment score (55%) with normalized star rating (45%) into a single 0–100 satisfaction score using Min-Max scaling.
 Bootstrap Resampling — Ran 1,000 bootstrap iterations per device to correct for imbalanced sample sizes and generate 95% confidence intervals.
 Visualization — Built 5 Power BI dashboards covering review volume, sentiment distribution, rating agreement, and satisfaction score bands.
+
 📊 Key Results
 Metric	iPhone 17 Pro Max	Pixel 10 Pro	Galaxy S26 Ultra
 Bootstrap Mean Score	94.31	92.85	92.24
