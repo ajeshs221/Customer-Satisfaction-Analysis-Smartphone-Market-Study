@@ -1,0 +1,13 @@
+Mobile_Device,score_band,count,avg_satisfaction,Percentage_of_device
+Google Pixel 10 Pro,Excellent(80-100),302,98.20135761589404,91.52
+Google Pixel 10 Pro,Good(60-79),5,72.61800000000001,1.52
+Google Pixel 10 Pro,Average(40-59),8,48.69625,2.42
+Google Pixel 10 Pro,Poor(0-39),15,14.395333333333333,4.55
+Samsung Galaxy S26 Ultra,Excellent(80-100),414,98.56618357487923,89.61
+Samsung Galaxy S26 Ultra,Good(60-79),14,69.92071428571428,3.03
+Samsung Galaxy S26 Ultra,Average(40-59),9,49.458888888888886,1.95
+Samsung Galaxy S26 Ultra,Poor(0-39),25,14.9396,5.41
+iPhone 17 Pro Max,Excellent(80-100),310,98.65687096774194,93.66
+iPhone 17 Pro Max,Good(60-79),3,77.32333333333334,0.91
+iPhone 17 Pro Max,Average(40-59),6,52.06833333333333,1.81
+iPhone 17 Pro Max,Poor(0-39),12,6.3308333333333335,3.63

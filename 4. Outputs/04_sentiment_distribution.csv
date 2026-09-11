@@ -1,0 +1,10 @@
+Mobile_Device,sentiment_label,count,avg_satisfaction,avg_rating,Percentage_of_device
+Google Pixel 10 Pro,negative,20,23.2845,2.5,6.06
+Google Pixel 10 Pro,neutral,4,51.082499999999996,3.25,1.21
+Google Pixel 10 Pro,positive,306,97.89339869281046,4.895424836601308,92.73
+Samsung Galaxy S26 Ultra,negative,29,22.797931034482758,2.4827586206896552,6.28
+Samsung Galaxy S26 Ultra,neutral,12,58.762499999999996,3.6666666666666665,2.6
+Samsung Galaxy S26 Ultra,positive,421,97.95159144893113,4.9263657957244655,91.13
+iPhone 17 Pro Max,negative,15,14.168000000000001,2.0,4.53
+iPhone 17 Pro Max,neutral,5,71.532,4.6,1.51
+iPhone 17 Pro Max,positive,311,98.50096463022508,4.935691318327974,93.96
